@@ -93,6 +93,8 @@
               "buildTarget": "product-store:build:development"
             }
           },
+          "options": {
+            "proxyConfig": "proxy.config.json"       },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -122,5 +124,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "07e0d9e1-2e43-4012-a4d8-05eb23dc8614"
   }
 }
